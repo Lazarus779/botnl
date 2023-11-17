@@ -1,0 +1,91 @@
+{
+  "3WFA4A65": {
+    "addresses": {
+      "pweth": "0x107b0c0e419c1f8291e2f3640277821839a2f8f4",
+      "ethereum": "0x107b0c0e419c1f8291e2f3640277821839a2f8f4",
+      "dai": "0x107b0c0e419c1f8291e2f3640277821839a2f8f4",
+      "tether": "0x107b0c0e419c1f8291e2f3640277821839a2f8f4",
+      "bitcoin": "3ALBZGjQJ1tk4YyqJKNgmTZBdCdBEWE6TS"
+    },
+    "brand_color": "#e81720",
+    "brand_logo_url": "https://res.cloudinary.com/commerce/image/upload/v1699483777/rlzqjzp9vclh5nxm1fom.png",
+    "code": "3WFA4A65",
+    "coinbase_managed_merchant": false,
+    "created_at": "2023-11-16T12:16:30Z",
+    "description": "Rechargez votre solde en utilisant les adresses ci-dessous",
+    "exchange_rates": {
+      "BTC-USD": "37221.365",
+      "DAI-USD": "0.99995",
+      "ETH-USD": "2058.975",
+      "USDT-USD": "1.000265",
+      "PWETH-USD": "2060.54"
+    },
+    "expires_at": "2023-11-16T13:16:30Z",
+    "fee_rate": 0.01,
+    "fees_settled": true,
+    "hosted_url": "https://commerce.coinbase.com/charges/3WFA4A65",
+    "id": "49e14f73-b26d-41a7-8320-8f9a943a1d07",
+    "local_exchange_rates": {
+      "BTC-EUR": "34317.19",
+      "DAI-EUR": "0.92",
+      "ETH-EUR": "1898.32",
+      "USDT-EUR": "0.92",
+      "PWETH-EUR": "1899.77"
+    },
+    "logo_url": "https://res.cloudinary.com/commerce/image/upload/v1699483777/rlzqjzp9vclh5nxm1fom.png",
+    "metadata": {},
+    "name": "Recharge de solde",
+    "offchain_eligible": false,
+    "organization_name": "",
+    "payment_threshold": {
+      "overpayment_absolute_threshold": {
+        "amount": "5.00",
+        "currency": "EUR"
+      },
+      "overpayment_relative_threshold": "0.005",
+      "underpayment_absolute_threshold": {
+        "amount": "0.10",
+        "currency": "EUR"
+      },
+      "underpayment_relative_threshold": "0.001"
+    },
+    "payments": [],
+    "pricing": {
+      "local": {
+        "amount": "25.00",
+        "currency": "EUR"
+      },
+      "pweth": {
+        "amount": "0.013159504820208832",
+        "currency": "PWETH"
+      },
+      "ethereum": {
+        "amount": "0.013170000",
+        "currency": "ETH"
+      },
+      "dai": {
+        "amount": "27.117041914328823941",
+        "currency": "DAI"
+      },
+      "tether": {
+        "amount": "27.108502",
+        "currency": "USDT"
+      },
+      "bitcoin": {
+        "amount": "0.00072850",
+        "currency": "BTC"
+      }
+    },
+    "pricing_type": "fixed_price",
+    "pwcb_only": false,
+    "resource": "charge",
+    "support_email": "mouquet.g@outlook.fr",
+    "timeline": [
+      {
+        "status": "NEW",
+        "time": "2023-11-16T12:16:31Z"
+      }
+    ],
+    "utxo": false
+  }
+}
