@@ -7,9 +7,9 @@ const Client = coinbase.Client;
 const Charge = coinbase.resources.Charge;
 let waitingForUsername = {};
 const waitingForLines = {};
-const client = Client.init('c3ccfe07-88b5-497b-948c-b2ca4eb1f80b');
+const client = Client.init('Votre api KEY');
 client.setRequestTimeout(3000);
-const bot = new Telegraf('6254956099:AAGSYzqaQrbuX0vV6vUZuLgKlwX6MkA9n74');
+const bot = new Telegraf('API TLG');
 
 // Commande pour ajouter du solde (réservée aux administrateurs)
 bot.command('ajouter_solde', (ctx) => {
